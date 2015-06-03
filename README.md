@@ -15,7 +15,7 @@ composer install
 
 ## Testing
 
-Run Selenium server first.
+Run Selenium server first. Then execute the commands below:
 
 ```
 ./vendor/bin/phpunit
