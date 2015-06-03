@@ -4,7 +4,7 @@ class PHPUnitSeleniumTest extends PHPUnit_Extensions_SeleniumTestCase
 {
     public static $browsers = [
         [
-          'browser' => '*googlechrome',
+            'browser' => '*googlechrome',
         ],
         // [
         //   'browser' => '*firefox',
@@ -16,7 +16,7 @@ class PHPUnitSeleniumTest extends PHPUnit_Extensions_SeleniumTestCase
 
     protected function setUp()
     {
-        $this->setTimeout(180);
+        $this->setSpeed(500);
         $this->setBrowserUrl("https://github.com/");
     }
 
